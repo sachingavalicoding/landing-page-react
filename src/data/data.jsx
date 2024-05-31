@@ -1,4 +1,4 @@
-
+import { TbMessageChatbot } from "react-icons/tb";
 
 import user1 from "/profile-pictures/user1.jpg";
 import user2 from "/profile-pictures/user2.jpg";
@@ -91,7 +91,52 @@ export const features = [
       "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
   },
 ];
+*/
 
+import { IoFingerPrint } from "react-icons/io5";
+import { FaShieldAlt } from "react-icons/fa";
+import { FiBatteryCharging } from "react-icons/fi";
+import { LuPlugZap } from "react-icons/lu";
+import { RiGlobalLine } from "react-icons/ri";
+
+export const features = [
+  {
+    icon: <TbMessageChatbot className="text-3xl text-mainColor" />,
+    text: "Drag-and-Drop Interface",
+    description:
+      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+  },
+  {
+    icon: <IoFingerPrint className="text-3xl text-mainColor" />,
+    text: "Multi-Platform Compatibility",
+    description:
+      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+  },
+  {
+    icon: <FaShieldAlt className="text-3xl text-mainColor"/>,
+    text: "Built-in Templates",
+    description:
+      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+  },
+  {
+    icon: <FiBatteryCharging className="text-3xl text-mainColor"/>,
+    text: "Real-Time Preview",
+    description:
+      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+  },
+  {
+    icon: <LuPlugZap className="text-3xl text-mainColor"/>,
+    text: "Collaboration Tools",
+    description:
+      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+  },
+  {
+    icon: <RiGlobalLine className="text-3xl text-mainColor" />,
+    text: "Analytics Dashboard",
+    description:
+      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+  },
+];
 export const checklistItems = [
   {
     title: "Code merge made easy",
@@ -113,7 +158,7 @@ export const checklistItems = [
     description:
       "Track the performance of your VR apps and gain insights into user behavior.",
   },
-]; */
+]; 
 
 export const pricingOptions = [
   {
